@@ -1,0 +1,14 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Selvate",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}

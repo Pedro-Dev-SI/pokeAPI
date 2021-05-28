@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./style.css">
+   <title>PokeAPI</title>
+</head>
+<body>
+   <div class="container">
+      <h1 class="title">Random Pokémon</h1>
+      <div class="input-group mb-3">
+         <div class="input-group-prepend">
+           <button class="btn btn-outline-secondary" type="button" id="btn-generate" >Generate Pokémon</button>
+         </div>
+         <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" id="poke-place" value="">
+      </div>
+      <h3 class="title">Abilities</h3>
+      <textarea class="form-control" aria-label="With textarea" id="text-area"></textarea>
+      <h3 class="title">Image</h3>
+      <div class="img-div">
+         <img src="" id="poke-img">
+      </div>    
+   </div>
+
+
+   <script src="src/index.js"></script>
+</body>
+</html>
