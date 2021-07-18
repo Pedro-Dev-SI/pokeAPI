@@ -29,7 +29,6 @@ btn.addEventListener("click", (event) => {
       return response.json()
          .then((data) =>{
             input.value = data.name;
-            console.log(data);
             let arrayAbilities = data.abilities
 
             if(textArea.value != null){
