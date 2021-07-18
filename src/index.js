@@ -22,9 +22,7 @@ function showImage(pokeID){
 
 btn.addEventListener("click", (event) => {
 
-   
-   
-   let poke = pokemon(200);
+   let poke = pokemon(600);
 
    fetch(`https://pokeapi.co/api/v2/pokemon/${poke}/`)
    .then((response) =>{
